@@ -3,204 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Landing Page - Maquette</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-    <a href="#" id="logo">
+<header class="navbar">
+    <div class="logo">
         <img src="assets/logo.png" alt="Logo">
-    </a>
-
-    <ul id="nav-links">
-        <li><a href="#">Prestation</a></li>
-        <li><a href="#">Valeur ajoutés</a></li>
-        <li><a href="#">Témoignages client</a></li>
-    </ul>
-
-    <a href="contact.html" class="btn">Contact</a>
-</nav>
-
-<header class="main-header">
-    <div class="header-left">
-        <h1>Nos projets</h1>
-        <p class="subtitle">Voir ce que nous faisons</p>
-
-        <div class="buttons">
-            <a href="#" class="btn">Notre équipe</a>
-            <a href="#" class="btn">Voir nos projets</a>
-        </div>
     </div>
 
-    <div class="header-right">
-        <img src="assets/mariage.png" alt="Image principale">
-    </div>
+    <nav>
+        <ul id="nav-links">
+            <li><a href="#promesse">Promesse</a></li>
+            <li><a href="#services">Services proposés</a></li>
+            <li><a href="#realisations">Réalisations</a></li>
+        </ul>
+    </nav>
+
+    <a href="#contact" class="btn btn-blue">Contact</a>
 </header>
 
-<section class="second-header">
+<section class="hero">
+    <div class="hero-content">
+        <h1>notre top de l'année</h1>
+        <p class="subtitle">encore des surprises</p>
 
-    <div class="second-top">
+        <div class="buttons">
+            <a href="#" class="btn btn-blue">CTA 1</a>
+            <a href="#" class="btn btn-outline">CTA 2</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/mariage.png" alt="Hero">
+    </div>
+</section>
+
+<section id="promesse" class="promesse">
+    <div class="section-header">
         <h2>Promesse</h2>
-        <p class="subtitle">amusez-vous faites vous choix.</p>
-        <p class="description">
-            réservez votre offre à valoir lors de votre prochaine visite dans notre atelier de Vélizy
-        </p>
+        <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
     </div>
 
-    <div class="second-content">
-
+    <div class="promesse-content">
         <div class="img-grid">
-            <img src="assets/nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg" alt="">
-            <img src="assets/portraits-lumiere.png" alt="">
-            <img src="assets/voyage-islande.png" alt="">
+            <img src="assets/nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg">
+            <img src="assets/portraits-lumiere.png">
+            <img src="assets/voyage-islande.png">
         </div>
 
-        <div class="second-right">
-            <div class="notes">
-                • abonnez vous dès maintenant <br>
-                • choix de meilleur photographe <br>
-                • offre de meilleures visites panoramiques <br>
-                • équipes sympathiques anglais français arabe allemand italien
-            </div>
+        <div class="promesse-right">
+            <ul class="check-list">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+            </ul>
 
-            <a href="#" class="cta-btn">je profite de l'offre</a>
+            <a href="#" class="btn btn-blue">voir plus</a>
         </div>
-
     </div>
 </section>
 
-<section class="third-section">
+<section id="services" class="services">
+    <h2 class="section-title">Services proposés</h2>
 
-    <h2 class="third-title">Nos services</h2>
-
-    <div class="cards">
-
+    <div class="cards-grid">
         <div class="card">
-            <img src="assets/nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg" alt="">
-            <p>njrr je suis la</p>
-            <a href="#" class="card-btn">Voir plus</a>
-        </div>
-
-        <div class="card">
-            <img src="assets/nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg" alt="">
-            <p>njrr je suis la</p>
-            <a href="#" class="card-btn">Voir plus</a>
+            <div class="card-img">
+                <img src="assets/nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg">
+            </div>
+            <h3>notre travail </h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="btn btn-blue">CTA custom</a>
         </div>
 
         <div class="card">
-            <img src="assets/portraits-lumiere.png" alt="">
-            <p>njrr je suis la</p>
-            <a href="#" class="card-btn">Voir plus</a>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="realisation-section">
-
-    <h2 class="realisation-title">Réalisations</h2>
-
-    <div class="realisation-block">
-        <img src="assets/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at 
-sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus 
-felis sed pretium in egestas. </p>
-    </div>
-
-    <div class="realisation-block reverse">
-        <img src="assets/mariage.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at 
-sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus 
-felis sed pretium in egestas. </p>
-    </div>
-
-    <div class="realisation-block">
-        <img src="assets/praise-judah-KHQJf0Gq3RA-unsplash.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at 
-sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus 
-felis sed pretium in egestas. </p>
-    </div>
-
-    <div class="realisation-block reverse">
-        <img src="assets/praise-judah-KHQJf0Gq3RA-unsplash.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur. Pulvinar arcu mattis in at 
-sodales condimentum. Gravida arcu aliquet rutrum erat varius. Tellus 
-felis sed pretium in egestas. </p>
-    </div>
-
-</section>
-
-<!-- TESTIMONIALS -->
-<section class="testimonials">
-    <h2 class="third-title">Témoignages</h2>
-
-    <div class="testimonial-grid">
-
-        <div class="testimonial-card">
-            <p>"Lorem ipsum dolor sit amet consectetur. Condimentum 
-eget vitae ligula sed urna sit sagittis interdum a. Blandit 
-mattis mattis lobortis orci. Facilisis dui sagittis tempor 
-egestas pellentesque eu maecenas. Risus lectus nisl."</p>
-            <div class="user-info">
-                <img src="assets/portraits-lumiere.png" alt="Portrait utilisateur">
-                <div>
-                    <strong>Jacqueline Wright</strong>
-                    <span>Customer</span>
-                </div>
+            <div class="card-img">
+                <img src="assets/nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg">
             </div>
+            <h3>sorties</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="btn btn-blue">CTA custom</a>
         </div>
 
-        <div class="testimonial-card">
-            <p>"Lorem ipsum dolor sit amet consectetur. Condimentum 
-eget vitae ligula sed urna sit sagittis interdum a. Blandit 
-mattis mattis lobortis orci. Facilisis dui sagittis tempor 
-egestas pellentesque eu maecenas. Risus lectus nisl."</p>
-            <div class="user-info">
-                <img src="assets/portraits-lumiere.png" alt="Portrait utilisateur">
-                <div>
-                    <strong>Marc Dubois</strong>
-                    <span>Customer</span>
-                </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="assets/portraits-lumiere.png">
             </div>
+            <h3>beauté</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <a href="#" class="btn btn-blue">CTA custom</a>
         </div>
-
     </div>
 </section>
 
-<!-- SOCIAL CARDS -->
-<section class="social-section">
-    <h2 class="third-title">Réseaux</h2>
+<section id="realisations" class="realisations">
 
-    <div class="social-grid">
+    <h2 class="section-title">Réalisations</h2>
 
-        <div class="social-card">
-            <div class="social-icon">🌐</div>
-            <h3>Site Web</h3>
-            <p>Découvrez toutes nos réalisations et services.</p>
+    <div class="real-row">
+        <div class="real-img">
+            <img src="assets/alvaro-cvg-mW8IZdX7n8E-unsplash.jpg">
         </div>
-
-        <div class="social-card">
-            <div class="social-icon">f</div>
-            <h3>Facebook</h3>
-            <p>Suivez-nous sur Facebook pour nos actualités.</p>
+        <div class="real-text">
+            <h3>mariage</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
-
-        <div class="social-card">
-            <div class="social-icon">in</div>
-            <h3>LinkedIn</h3>
-            <p>Réseau professionnel et collaborations.</p>
-        </div>
-
-        <div class="social-card">
-            <div class="social-icon">Bē</div>
-            <h3>Behance</h3>
-            <p>Portfolio et projets créatifs.</p>
-        </div>
-
     </div>
+
+    <div class="real-row reverse">
+        <div class="real-img">
+            <img src="assets/mariage.png">
+        </div>
+        <div class="real-text">
+            <h3>anciennes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </div>
+
+    <div class="real-row">
+        <div class="real-img">
+            <img src="assets/portraits-lumiere.png">
+        </div>
+        <div class="real-text">
+            <h3>nice</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </div>
+
+    <div class="real-row reverse">
+        <div class="real-img">
+            <img src="assets/voyage-islande.png">
+        </div>
+        <div class="real-text">
+            <h3>cap</h3>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </div>
+
 </section>
+
+<section class="map">
+    <h2 class="section-title">Nous trouver</h2>
+    <p>14 rue Dert, Paris</p>
+
+    <iframe
+        src="https://www.google.com/maps?q=14+rue+Dert+Paris&output=embed"
+        width="100%" height="300">
+    </iframe>
+</section>
+
+<footer id="contact" class="footer">
+
+    <div class="footer-info">
+        <h3>Prêts à travailler ensemble ?</h3>
+
+        <div class="socials">
+            <a href="#" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="in"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="be"><i class="fa-brands fa-behance"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-form">
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="Nom">
+            </div>
+
+            <div class="input-group">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-group">
+                <textarea placeholder="Message"></textarea>
+            </div>
+
+            <button class="btn btn-blue">Envoyer</button>
+        </form>
+    </div>
+
+</footer>
 
 </body>
 </html>
